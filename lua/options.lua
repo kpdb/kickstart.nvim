@@ -45,4 +45,7 @@ vim.o.shiftwidth = 4
 vim.o.shiftround = true
 vim.o.expandtab = true
 
+-- relative lines numbering
+vim.o.relativenumber = true
+
 -- vim: ts=2 sts=2 sw=2 et

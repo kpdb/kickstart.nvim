@@ -12,22 +12,6 @@ return {
     },
   },
   {
-    "mrcjkb/rustaceanvim",
-    version = "^3",
-    ft = { 'rust' },
-    init = function()
-      vim.g.rustaceanvim = {
-        tools = {},
-        server = {
-          on_attach = function(client, bufnr)
-            -- put keymaps here
-          end,
-          settings = {
-            ['rust-analyzer'] = {},
-          },
-        },
-        dap = {},
-      }
-    end,
+    "ThePrimeagen/vim-be-good"
   },
 }
