@@ -14,6 +14,9 @@ require 'config.lazy'
 -- (fuzzy finder)
 require 'config.telescope'
 
+-- [[ Harpoon using Telescope ]]
+require 'config.harpoon'
+
 -- [[ Configure Treesitter ]]
 -- (syntax parser for highlighting)
 require 'config.treesitter'
