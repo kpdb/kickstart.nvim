@@ -1,4 +1,4 @@
-return {  -- NOTE: First, some plugins that don't require any configuration
+return { -- NOTE: First, some plugins that don't require any configuration
 
   -- Git related plugins
   'tpope/vim-fugitive',
@@ -19,7 +19,7 @@ return {  -- NOTE: First, some plugins that don't require any configuration
 
       -- Useful status updates for LSP
       -- NOTE: `opts = {}` is the same as calling `require('fidget').setup({})`
-      { 'j-hui/fidget.nvim', opts = {} },
+      { 'j-hui/fidget.nvim',       opts = {} },
 
       -- Additional lua configuration, makes nvim stuff amazing!
       'folke/neodev.nvim',
@@ -44,7 +44,7 @@ return {  -- NOTE: First, some plugins that don't require any configuration
   },
 
   -- Useful plugin to show you pending keybinds.
-  { 'folke/which-key.nvim', opts = {} },
+  { 'folke/which-key.nvim',  opts = {} },
   {
     -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
@@ -127,7 +127,7 @@ return {  -- NOTE: First, some plugins that don't require any configuration
     opts = {
       style = 'moon',
       light_style = 'day',
-      transparent = false,
+      transparent = true,
       terminal_colors = true,
       styles = {
         comments = { italic = true },
@@ -144,7 +144,7 @@ return {  -- NOTE: First, some plugins that don't require any configuration
       lualine_bold = false
     },
     config = function()
-      vim.cmd.colorscheme 'tokyonight'
+      vim.cmd.colorscheme 'tokyonight-moon'
     end,
   },
 
@@ -213,3 +213,4 @@ return {  -- NOTE: First, some plugins that don't require any configuration
     },
   },
 }
+-- vim: ts=2 sts=2 sw=2 et
