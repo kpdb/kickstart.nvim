@@ -5,12 +5,22 @@ return {
     priority = 1000,
     opts = function()
       return {
+        style = "moon",
         transparent = true,
         terminal_colors = true,
         styles = {
           comments = { italic = true },
           keywords = { italic = true },
-          param_annotation = { italic = true },
+          functions = {},
+          conditionals = {},
+          loops = {},
+          strings = {},
+          variables = {},
+          numbers = {},
+          booleans = {},
+          properties = {},
+          types = {},
+          operators = {},
           sidebars = "dark",
           floats = "dark",
         },
