@@ -14,13 +14,13 @@ return {
     opts = {
       ensure_installed = {
         "arduino",
+        "bash",
         "c",
         "cmake",
         "cpp",
         "css",
         "csv",
         "dockerfile",
-        "bash",
         "git_config",
         "git_rebase",
         "gitattributes",

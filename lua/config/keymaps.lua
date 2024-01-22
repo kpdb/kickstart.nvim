@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 
 local keymap = vim.keymap.set
+
+keymap("v", "J", ":m '>+1<cr>gv=gv", { desc = "Move line up" })
+keymap("v", "K", ":m '<-2<cr>gv=gv", { desc = "Move line down" })
