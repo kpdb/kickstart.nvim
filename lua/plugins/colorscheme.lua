@@ -19,9 +19,9 @@ return {
           numbers = {},
           booleans = {},
           properties = {},
-          types = {},
+          types = { italic = true },
           operators = {},
-          sidebars = "dark",
+          sidebars = "",
           floats = "dark",
         },
       }
