@@ -60,6 +60,18 @@ return {
               end,
               "Code Action",
             },
+            ["<leader>cx"] = {
+              function()
+                vim.cmd.RustLsp("runnables")
+              end,
+              "Show runnables",
+            },
+            ["<leader>cX"] = {
+              function()
+                vim.cmd.RustLsp({ "runnables", "last" })
+              end,
+              "Run last runnable",
+            },
             ["<leader>dr"] = {
               function()
                 vim.cmd.RustLsp("debuggables")
